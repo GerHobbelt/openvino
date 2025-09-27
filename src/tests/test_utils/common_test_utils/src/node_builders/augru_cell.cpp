@@ -13,7 +13,7 @@ namespace ov {
 namespace test {
 namespace utils {
 /**
- * There are 2 options to paramter "in" when "make_sequence" is true.
+ * There are 2 options to parameter "in" when "make_sequence" is true.
  * 0          1               2           3
  * X   init_hidden_state  attention    seq_length
  * or,

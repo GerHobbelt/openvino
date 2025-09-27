@@ -728,8 +728,8 @@ public:
      * @brief Inplace value construction function
      *
      * @tparam T Any type
-     * @tparam Args pack of paramter types passed to T constructor
-     * @param args pack of paramters passed to T constructor
+     * @tparam Args pack of parameter types passed to T constructor
+     * @param args pack of parameters passed to T constructor
      */
     template <typename T, typename... Args>
     static Any make(Args&&... args) {

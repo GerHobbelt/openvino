@@ -141,7 +141,7 @@ ov_compiled_model_create_infer_request(const ov_compiled_model_t* compiled_model
  * @brief Sets properties for a device, acceptable keys can be found in ov_property_key_xxx.
  * @ingroup ov_compiled_model_c_api
  * @param compiled_model A pointer to the ov_compiled_model_t.
- * @param ... variadic paramaters The format is <char *property_key, char* property_value>.
+ * @param ... variadic parameters The format is <char *property_key, char* property_value>.
  * Supported property key please see ov_property.h.
  * @return Status code of the operation: OK(0) for success.
  */

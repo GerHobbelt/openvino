@@ -486,7 +486,7 @@ This struct represents OpenVINO entity and allows you to manipulate with plugins
     - `device_name` - Name of a device to load a model to.
     - `property_args_size` - How many properties args will be passed, each property contains 2 args: key and value.
     - `compiled_model` - A pointer to the newly created compiled_model.
-    - `...` - property paramater, optional pack of pairs: <char* property_key, char* property_value> relevant only for this load operation operation.
+    - `...` - property parameter, optional pack of pairs: <char* property_key, char* property_value> relevant only for this load operation operation.
 
   - Return value: Status code of the operation: OK(0) for success.
 
@@ -513,7 +513,7 @@ This struct represents OpenVINO entity and allows you to manipulate with plugins
   - Parameters:
     - `core` - A pointer to `ov_core_t` instance.
     - `device_name` - Name of a device.
-    - `...` - property paramaters, optional pack of pairs: <char* property_key, char* property_value>.
+    - `...` - property parameters, optional pack of pairs: <char* property_key, char* property_value>.
   - Return value: Status code of the operation: OK(0) for success.
 
   - Usage example:
@@ -856,7 +856,7 @@ This struct represents a compiled model instance loaded to plugin and ready for 
   - Description: - Sets properties for a device, acceptable keys can be found in ov_property_key_xxx.
   - Parameters:
     - `compiled_model` - A pointer to `ov_compiled_model_t` instance.
-    - `...` variadic paramaters, the format is <char *property_key, char* property_value>.
+    - `...` variadic parameters, the format is <char *property_key, char* property_value>.
   - Return value: Status code of the operation: OK(0) for success.
 
 - `ov_status_e ov_compiled_model_get_property(const ov_compiled_model_t* compiled_model,

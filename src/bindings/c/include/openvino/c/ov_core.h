@@ -203,7 +203,7 @@ ov_core_read_model_from_memory_buffer(const ov_core_t* core,
  * @param device_name Name of a device to load a model to.
  * @param property_args_size How many properties args will be passed, each property contains 2 args: key and value.
  * @param compiled_model A pointer to the newly created compiled_model.
- * @param ... property paramater: Optional pack of pairs: <char* property_key, char* property_value> relevant only
+ * @param ... property parameter: Optional pack of pairs: <char* property_key, char* property_value> relevant only
  * for this load operation operation. Supported property key please see ov_property.h.
  * @return Status code of the operation: OK(0) for success.
  */
@@ -267,7 +267,7 @@ ov_core_compile_model_from_file_unicode(const ov_core_t* core,
  * @ingroup ov_core_c_api
  * @param core A pointer to the ov_core_t instance.
  * @param device_name Name of a device.
- * @param ... variadic paramaters The format is <char* property_key, char* property_value>.
+ * @param ... variadic parameters The format is <char* property_key, char* property_value>.
  * Supported property key please see ov_property.h.
  * @return Status code of the operation: OK(0) for success.
  */
